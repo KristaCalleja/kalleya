@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+//  Graphical variables
+@import "config/colors";
+@import "config/fonts";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+@import "components/home";
+@import "pages/home";
+
+@import "pages";
