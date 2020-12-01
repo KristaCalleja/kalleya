@@ -1,5 +1,5 @@
 class QuotationsController < ApplicationController
-    def index
-        @quotations = Quotation.all
+    def random
+        @quotation = Quotation.find(Quotation.pluck(:id).sample)
     end
 end

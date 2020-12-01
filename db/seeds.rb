@@ -16,7 +16,9 @@ text_array = [
     "Libero e indipendente corro nei cieli inesplorati."
 ]
 
-create_quotation = Quotation.create!(
-    text: text_array.sample
-)
+6.times do |i|
+    quotation = Quotation.create!(
+        text: text_array[i]
+    )
+end
 puts "Seeding finished. Watch your plant grow during this neverending quarantine."
