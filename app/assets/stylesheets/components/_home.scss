@@ -1,9 +1,11 @@
 .wrapper{
+    margin: 0 auto;
+    padding: 120px;
+    box-sizing: border-box;
     width: 90%;
     max-width: 1300px;
-    background-color: #2D3047;
-    color: white;
-    padding: 210px 70px;
+    background-color: #C2C5BB;
+    color: #011638;
     text-align: center;
     h1{
         font-size: 48px;
@@ -13,13 +15,14 @@
         font-family: 'Courier New', Courier, monospace;
         font-size: 16px;
     }
-    img{
-        border-radius: 50%;
-        height: 30px;
-    }
+}
+
+.artist-image img{
+    border-radius: 50%;
+    height: 265px;
 }
 
 .biography{
-    border: 1px red solid;
+    // border: 1px red solid;
     padding: 10px 120px;
 }

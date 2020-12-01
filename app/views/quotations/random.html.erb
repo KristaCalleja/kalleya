@@ -1,8 +1,12 @@
 <div class="card-category">
+    <div class="nav">
+        <%= link_to image_tag('home.svg'), root_path%>
+        <%= link_to image_tag('info.svg'), about_path%>
+    </div>
     <%= @quotation.text %>
     <div class="box">
-    <button>
-        <%= link_to "More ➜", quotations_random_path%>
-    </button>
+        <button>
+            <%= link_to "More ➜", quotations_random_path%>
+        </button> 
     </div>
 </div>

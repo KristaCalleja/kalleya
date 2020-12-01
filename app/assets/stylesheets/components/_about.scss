@@ -1,0 +1,25 @@
+.about-wrapper{
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1300px;
+    background-color: #C2C5BB;
+    color: #011638;
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        align-items: center;
+    }
+    .grid img{
+        background-size: cover;
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: 8px 6px 15px -5px rgba(0,0,0,0.64);
+    }
+    p{
+        line-height: 1.8rem;
+        text-align: center;
+    }
+}
