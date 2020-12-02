@@ -1,15 +1,11 @@
-
-<div class="nav">
-    <%= link_to image_tag('home.svg'), root_path%>
-    <%= link_to image_tag('info.svg'), about_path%>
+<div class="background">    
+<%= render 'shared/navbar'%>
+        <h2>
+            <%= @quotation.text %>
+        </h2>
+        <div class="box">
+            <button>
+                <%= link_to "More ➜", quotations_random_path%>
+            </button> 
+        </div>
 </div>
-<h2 class="quote">
-    <%= @quotation.text %>
-</h2>
-<div class="background">
-</div>
-    <div class="box">
-        <button>
-            <%= link_to "More ➜", quotations_random_path%>
-        </button> 
-    </div>

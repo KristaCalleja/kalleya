@@ -1,0 +1,18 @@
+.nav{
+    border: 3px red solid;
+    max-width: 500px;
+    .links{
+        font-family: Arial, Helvetica, sans-serif;
+        justify-items: center;
+        .css-links{
+            text-decoration: none;
+            background-color: #A29C9B;
+            border: 2px #56494E solid;
+            font-size: 24px;
+            line-height: 1em;
+            box-shadow: 8px 6px 15px -5px rgba(0,0,0,0.64);
+            border-radius: 3px;
+        }
+        
+    }
+}
