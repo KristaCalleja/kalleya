@@ -1,18 +1,25 @@
 <div class="wrapper">
+    <h2>Welcome to</h2>
+    <h1>Josef Kalleya's</h1>
+    <h2>Punchline Generator</h2>
     <div class="artist-image">
         <%= image_tag "jk7.jpg", alt: "Josef Kalleya portrait" %>
     </div>
-    <h1>Josef Kalleya</h1>
     <div class="biography">
-        <p>Josef Kalleya was born in Valletta, Malta on March 27th, 1989 to Gioacchino and Ludgarda Farrugia Busuttil. He started his apprenticeship in art studies in 1918, under the masters of Arturo Galdes, Giuseppe Calì, Lazzaro Pisani and Robert Caruana Dingli, to name a few. <br><br>In 1926, Kalleya went to Rome for the first time and there he honed in on his artistic studies at the Società di Belle Arti. It was in Rome too where he met his soon to be wife Elsa Ornaro. They married in Rome on July 7th, 1934. Kalleya's works are bound in the abstract and revolutionanised the modern art movement in Malta. <br><br>Kalleya's artistic value can not only be found in his sculptures and drawings, but also in his reasonings and punchlines, which deserve reflection too. <br><br><strong>Click on the button below to learn more.</strong></p>
+        <p>Josef Kalleya was born in Valletta, Malta in 1898. He started his artistic apprenticeship during his teens, learning with masters like Arturo Galdes, Giuseppe Calì, Lazzaro Pisani and Robert Caruana Dingli, to name a few. 
+        <br><br>In the early 1930's Kalleya furthered his artistic studies at the Società di Belle Arti, in Rome, Italy. It was there too where he met the young Elsa Ornaro, and they were soon married. On their return to Malta, Kalleya brought modern revoluntionary verve to the Maltese artistic scene. His works drew on the abstract, the philosophical and phantasmagorical. He passed away peacefully in 1998, surrounded by family and friends.
+        <br><br>Apart from his striking sculptures and drawings, Kalleya's artistic value is also noted in his elocution. He would often greet friends with jocose phrases, which often left them perplexed. Kalleya would often go to great lengths reasoning out and seeking meaning in language and its etymology.
+        <br><br>This generator presents some of his most common musings. 
     </div>
     <button>
         <%= link_to "Start Generator", quotations_random_path%>
     </button>
-    <div class="facebook">
-        <%= link_to image_tag('facebook.svg'), "https://www.facebook.com/kalleya" %>
-    </div>
-    <div class="about">
-        <%= link_to image_tag('info.svg'), about_path%>
+    <div class="flexbox">
+        <div class="facebook">
+            <%= link_to image_tag('facebook.svg'), "https://www.facebook.com/kalleya" %>
+        </div>
+        <div class="about">
+            <%= link_to image_tag('info.svg'), about_path%>
+        </div>
     </div>
 </div>
