@@ -12,7 +12,7 @@ text_array = [
     "The Finite yearns for the Infinite. The Infinite creates the Finite to join it to the Infinite, and this forever in a continuous uninterrupted evolution.",
     "On artistic creation: 'a divine struggle'.",
     "On the depicted Clown weeping blood: 'this blood will finally cleanse humanity'.",
-    "On the explaining an artwork: 'For me the meaning counts, it counts a lot!'",
+    "On explaining an artwork: 'For me the meaning counts, it counts a lot!'",
     "Libero e indipendente corro nei cieli inesplorati.",
     "On tardiness: 'Don't fret about being late. What is one hour compared to waiting for eternity?'",
     "Hajja wahda m'hijiex bizzejjed ghal dak kollu li jista' johlom il-bniedem.",
