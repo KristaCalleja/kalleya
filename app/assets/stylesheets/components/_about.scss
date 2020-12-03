@@ -6,12 +6,6 @@
     max-width: 1300px;
     background-color: #C2C5BB;
     color: #011638;
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1em;
-        align-items: center;
-    }
     .grid img{
         background-size: cover;
         width: 100%;
