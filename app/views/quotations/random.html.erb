@@ -1,8 +1,10 @@
 <div class="background">    
 <%= render 'shared/navbar'%>
+    <div class="transparent-box">
         <h2>
             <%= @quotation.text %>
         </h2>
+    </div>
         <div class="box">
             <button>
                 <%= link_to "More ➜", quotations_random_path%>

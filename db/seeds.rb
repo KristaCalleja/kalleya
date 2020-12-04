@@ -19,10 +19,11 @@ text_array = [
     "Kif tista' tifhmu lil Alla? Tista' ssammar musmar b'rasek? Tkisser rasek u ma ssammarx il-musmar!",
     "Kif jiena? Jiena hadida tal-lastiku!",
     "Jekk irrid immur sal-Mellieha, naqbad ta' Birzebbuga.",
-    "Everything must be viewed cosmically; and to that extent I believe in the absoluteness of matter which somehow always exists in God."
+    "Everything must be viewed cosmically; and to that extent I believe in the absoluteness of matter which somehow always exists in God.",
+    "Itla', izda ibqa' tiela', it-telgha hija twila u wieqfa, imma ibqa' tiela'."
 ]
 
-11.times do |i|
+12.times do |i|
     quotation = Quotation.create!(
         text: text_array[i]
     )
