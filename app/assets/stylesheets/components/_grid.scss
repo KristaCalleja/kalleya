@@ -1,11 +1,10 @@
 .grid{
-    border: 2px red solid;
+    // border: 2px red solid;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0.6em;
     align-items: center;
     img{
-        border: 2px orange solid;
         background-size: cover;
         width: 100%;
         border-radius: 4px;

@@ -1,17 +1,19 @@
 .nav{
-    top: 10px;
-    border: 3px red solid;
+    top: 0;
+    // border: 3px red solid;
     max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     .links{
         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
         justify-items: center;
         .css-links{
             text-decoration: none;
-            background-color: #A29C9B;
-            border: 2px #56494E solid;
+            background-color: #e6e6e7;
+            border: 1px #56494E solid;
             font-size: 24px;
             line-height: 1em;
-            box-shadow: 8px 6px 15px -5px rgba(0,0,0,0.64);
             border-radius: 3px;
         }
         

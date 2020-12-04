@@ -6,12 +6,10 @@
   display: flex;
   flex-direction: column;;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   .transparent-box{
-    border: 1px black solid;
-    opacity: 0.6;
+    opacity: 0.8;
     background-color: #ffffff;
-
   }
   h2{
     color: #1C1018;

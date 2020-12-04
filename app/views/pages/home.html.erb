@@ -15,6 +15,7 @@
             <br><br>This generator presents some of his most common musings, presented mostly in Maltese and English (translated). Some Italian phrases are found too.
     </div>
     <button>
-        <%= link_to "Start Generator", quotations_random_path, {:class => 'css-button', :style => 'color: white'}%>
+        <%= link_to (image_tag('play.svg')+'Start Generator'), quotations_random_path, {:class => 'css-button', :style => 'color: black'}%>
     </button>
+    <%= render 'shared/footer' %>
 </div>

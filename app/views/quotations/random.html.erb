@@ -5,9 +5,7 @@
             <%= @quotation.text %>
         </h2>
     </div>
-        <div class="box">
-            <button>
-                <%= link_to "More ➜", quotations_random_path%>
-            </button> 
-        </div>
+    <button>
+        <%= link_to (image_tag('refresh-cw.svg') + 'More'), quotations_random_path, {:class => 'css-button', :style => 'color: black'}%>
+    </button> 
 </div>

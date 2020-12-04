@@ -1,16 +1,17 @@
 <div class="wrapper">
 <%= render 'shared/navbar'%>   
-    <h2>About</h2> 
+    <h1>About</h1> 
     <div class="grid">    
         <figure>
             <%= image_tag "kristacalleja2.png", alt: "Krista Calleja old photograph" %>
             <figcaption>Krista trying out some clay at Kalleya's studio at Blata l-Bajda.</figcaption>
         </figure>
-        <p>This app was created by Josef Kalleya's youngest grandchild, Krista Calleja, who has very fond memories of her paternal grandfather 'Nannu'. Born in 1985, she was too young to understand the depth of her grandfather's philosophical musings. 
+        <p>This app was created by Josef Kalleya's youngest grandchild, Krista Calleja, who has very fond memories of her paternal grandfather: 'In-Nannu'. Eighty-seven years his junior, she was too young to understand the depth of her grandfather's philosophical musings. 
         <br><br>Contributions to this app were made by the family and friends of the artist.
-        <br><br><strong>If you have more Kalleya punchlines to add please get in touch by clicking the envelope button below.</strong></p>
+        <br><br><strong>If you know more Kalleya punchlines please get in touch by clicking the envelope button below.</strong></p>
     </div>
     <div class="link">
         <%= link_to image_tag('mail.svg'), "mailto:krista.developer@gmail.com"%>
     </div>
+    <%= render 'shared/footer' %>
 </div>
