@@ -1,21 +1,11 @@
-.wrapper{
-    margin: 0;
-    padding: 0 80px;
-    box-sizing: border-box;
-    // width: 90%;
-    max-width: 1300px;
-    background-color: #C2C5BB;
-    color: #011638;
-    text-align: center;
-    h1{
-        font-size: 48px;
-        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    }
-    p{
-        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-        font-size: 16px;
-        line-height: 1.8em;
-    }
+h1{
+    font-size: 48px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+p{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
 }
 
 .artist-image img{
