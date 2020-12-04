@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: space-around;
     .links{
-        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        font-family: $general-font;
         justify-items: center;
         .css-links{
             text-decoration: none;
@@ -16,6 +16,5 @@
             line-height: 1em;
             border-radius: 3px;
         }
-        
     }
 }
