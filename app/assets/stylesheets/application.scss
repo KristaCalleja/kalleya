@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require social-share-button
  */
 //  Graphical variables
 @import "config/fonts";
@@ -24,3 +25,4 @@
 @import "pages/home";
 
 @import "pages";
+@import "social-share-button";

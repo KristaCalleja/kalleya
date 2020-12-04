@@ -2,6 +2,7 @@
     <div class="links">
         <%= link_to (image_tag('home.svg') + 'Home'), root_path, {:class => 'css-links', :style => 'color:black'}%>
         <%= link_to (image_tag('info.svg') + 'About'), about_path, {:class => 'css-links', :style => 'color:black'}%>
-        <%= link_to (image_tag('share-2.svg') + 'Share'), root_path, {:class => 'css-links', :style => 'color:black'} %>
+        <%= link_to (image_tag('share-2.svg') + social_share_button_tag +  'Share'), root_path, {:class => 'css-links', :style => 'color:black'} %>
+        <%= social_share_button_tag('Share') %>
     </div>
 </div>
