@@ -1,17 +1,17 @@
 <div class="wrapper">
 <%= render 'shared/navbar'%>   
-    <h1>About</h1> 
-    <div class="grid">    
+    <h1>About</h1>  
+    <div class="grid">
         <p>This app was created by Josef Kalleya's youngest grandchild, Krista Calleja, who has very fond memories of her paternal grandfather: 'In-Nannu'. Eighty-seven years his junior, she was too young to understand the depth of her grandfather's philosophical musings. 
-        <br><br>Contributions to this app were made by the family and friends of the artist.
+        <br><br>Contributions to this app were made by family and friends of the artist.
         <br><br><strong>If you know more Kalleya punchlines please get in touch by clicking the envelope button below.</strong></p>
         <figure>
             <%= image_tag "kristacalleja2.png", alt: "Krista Calleja old photograph" %>
-            <figcaption>Krista leaving her mark at Kalleya's studio at Blata l-Bajda.</figcaption>
+            <figcaption>Krista leaving her mark at Kalleya's studio at Blata l-Bajda (circa 1987).</figcaption>
         </figure>
     </div>
-    <div class="link">
-        <%= link_to image_tag('mail.svg'), "mailto:krista.developer@gmail.com"%>
-    </div>
+        <button>
+            <%= link_to image_tag('mail.svg') + '  SUBMIT', "mailto:krista.developer@gmail.com", {:class => 'css-button', :style => 'color:#011638'}%>
+        </button>
     <%= render 'shared/footer' %>
 </div>
