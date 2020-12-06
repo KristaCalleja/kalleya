@@ -1,7 +1,7 @@
 <div class="wrapper">
 <%= render 'shared/navbar'%>
-    <h1>Josef Kalleya's</h1>
-    <h2>Punchline Generator</h2>
+    <h2>Famous Quotes by</h2>
+    <h1>Josef Kalleya</h1>
     <div class="grid">
         <figure>
             <%= image_tag "jk7.jpg", alt: "Josef Kalleya portrait" %>
@@ -10,11 +10,11 @@
             <p>Josef Kalleya was born in Valletta, Malta in 1898. He started his apprenticeship in art during his teens, learning with masters like Arturo Galdes, Giuseppe Calì, Lazzaro Pisani and Robert Caruana Dingli, to name a few. 
             <br><br>In the early 1930's Kalleya furthered his art studies at the Società di Belle Arti, in Rome, Italy. It was there too where he met the young Elsa Ornaro, and they were soon married. On their return to Malta, Kalleya brought modern revoluntionary verve to the Maltese art scene. His works drew on the abstract, the philosophical and phantasmagorical. 
             <br><br>He passed away peacefully in 1998, surrounded by family and friends.
-            <br><br>Apart from his striking sculptures and drawings, Kalleya's artistic value is also noted in his elocution. He would greet friends with jocose phrases, which often left them perplexed. He had even coined a word for them "titbizzi". Kalleya would go to great lengths reasoning out and seeking meaning in language and its use for giving meaning to life's greatest questions.
-            <br><br>This generator presents some of his most common musings, presented mostly in Maltese and English (translated). Some Italian phrases are found too.
+            <br><br>Apart from his striking sculptures and drawings, Kalleya's artistic value is also noted in his elocution. He would greet friends with jocose phrases, which often left them perplexed. He had even coined a word for them "titbizzi". Kalleya would go to great lengths reasoning out and seeking meaning in language and its use for giving significance to life's greatest questions.
+            <br><br>This generator attempts to cataloguise some of his most common musings. They're presented mostly in Maltese and English (translated). Some Italian phrases are found too. If you'd like to contribute, please follow the 'About' link, above.
     </div>
     <button>
-        <%= link_to (image_tag('play.svg')+'Start Generator'), quotations_random_path, {:class => 'css-button', :style => 'color:#011638'}%>
+        <%= link_to (image_tag('play.svg')+'Browse quotes'), quotations_random_path, {:class => 'css-button', :style => 'color:#011638'}%>
     </button>
     <%= render 'shared/footer' %>
 </div>
