@@ -1,7 +1,7 @@
 .nav{
     position: relative;
     top: 10px;
-    border: 3px red solid;
+    // border: 3px red solid;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,13 +11,12 @@
         justify-items: center;
         .css-links{
             text-decoration: none;
-            background-color: $platinum;
             border: 1px $xiketic solid;
             opacity: 0.9;
             font-size: 20px;
             line-height: 1em;
             border-radius: 3px;
-            padding: 7px 22px;            
+            padding: 7px 16px;            
         }
     }
 }
