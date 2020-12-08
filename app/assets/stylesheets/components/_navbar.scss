@@ -1,11 +1,11 @@
 .nav{
     position: relative;
     top: 10px;
-    // border: 3px red solid;
-    // max-width: 500px;
+    border: 3px red solid;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 10px;
     .links{
         font-family: $general-font;
         justify-items: center;
@@ -13,10 +13,11 @@
             text-decoration: none;
             background-color: $platinum;
             border: 1px $xiketic solid;
-            font-size: 24px;
+            opacity: 0.9;
+            font-size: 20px;
             line-height: 1em;
             border-radius: 3px;
-            padding: 7px 22px;
+            padding: 7px 22px;            
         }
     }
 }
